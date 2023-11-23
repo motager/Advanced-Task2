@@ -1,0 +1,498 @@
+/*                      👋 Hello 👋                          */
+/*         This my Css stylesheet.,,,,, Welcome😁😁          */         
+
+@font-face{
+    font-family: "myfont1";
+    src: url(../font/font1/Roboto-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: "myfont5";
+    src: url("../font/font/static/Rubik-Medium.ttf");
+}
+
+@font-face {
+
+    font-family: "myfont6";
+    src: url(../font/font/static/Rubik-SemiBold.ttf);
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+
+@font-face {
+
+    font-family: "myfont";
+    src: url(../font/font/static/Rubik-Regular.ttf);
+
+
+}
+
+@font-face {
+
+    font-family: "myfont2";
+    src: url(../font/font2/static/Rubik-Regular.ttf);
+
+
+}
+
+@font-face {
+
+    font-family: "myfont3";
+    src: url(../font/font3/Roboto/Roboto-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: "myfont4";
+    src: url(../font/font3/Roboto/Roboto-Medium.ttf);
+
+}
+
+.main_div {
+
+    width: 740px;
+
+    height: 513px;
+
+    margin: 150px auto 60px auto;
+
+    background-color: white;
+
+    border-radius: 30px;
+
+    position: relative;
+
+    box-shadow: 10px 10px 60px #edf2ff;
+
+}
+
+.left_div {
+
+    text-align: center;
+
+    display: inline-block;
+
+    width: 369px;
+
+    height: 512px;
+
+    border-radius: 30px;
+
+    background-color: #5F3FFC;
+
+    box-sizing: border-box;
+
+    border: 1px solid #5F3FFC;
+
+    max-width: 100%;
+
+
+}
+
+.Your-Result {
+
+    font-size: 20px;
+
+    font-weight: 500;
+
+    opacity: .7;
+
+    color: #E9E5FF;
+
+    font-family: "myfont4";
+
+    display: block;
+
+    margin: 43px 0px 60px 0px;
+
+
+
+
+}
+
+
+.div {
+
+
+    margin: -21px 85px 25px 85px;
+
+    background-color: #452CDE;
+
+    border: 1px solid #452CDE;
+
+    height: 200px;
+    
+    border-radius: 50%;
+
+
+    box-sizing: border-box;
+    /* line-height: 200px; */
+
+
+}
+
+
+.number {
+
+    display: block;
+
+    font-size: 60px;
+
+    font-family: "myfont3";
+
+    font-weight: bold;
+
+    color: #FEFFFF;
+
+    margin: 65px 0px -15px 0px;
+
+}
+
+
+.of {
+
+    opacity: .4;
+
+    color: white;
+
+    font-weight: 200;
+
+    font-family: "myfont2";
+
+}
+
+.great {
+    
+
+    text-align: center;
+
+    font-size: 30px;
+
+    font-weight: 500;
+
+    font-family: "myfont4";
+
+    color: #FEFFFF;
+
+
+}
+
+.p {
+
+
+    width: 245px;
+
+    margin: 23px auto;
+
+    opacity: .7;
+
+
+}
+
+.p div {
+
+
+    font-size: 17px;
+
+    font-family: "myfont5";
+
+    opacity: .7;
+
+    color: #FEFFFF;
+
+
+}
+
+
+.right_div {
+
+
+    display: inline-block;
+
+    width: 367px;
+
+    height: 512px;
+
+    background-color: #FFFFFF;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ffffffad;
+
+    max-width: 100%;
+
+    position: absolute;
+
+    border-top-right-radius: 30px;
+
+    border-bottom-right-radius: 30px;
+
+    padding: 36px;
+
+
+}
+
+.div_sum {
+
+
+    margin-bottom: 36px;
+
+
+}
+
+.sum {
+
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    font-family: "myfont3";
+
+    opacity: .9;
+
+    margin-bottom: 8px;
+
+
+}
+
+
+
+div button {
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+
+}
+
+.box1 {
+
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+
+    height: 53px;
+
+    width: 287px;
+
+    margin: 20px 4px 20px;
+
+    background-color: #FFF6F5;
+
+    border-radius: 10px;
+
+    border: 0px solid;
+
+    box-sizing: border-box;
+
+    line-height: 53px;
+
+    color: #FF8B96;
+
+
+}
+
+.box2 {
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+
+    height: 53px;
+
+    width: 287px;
+
+    margin: 20px 4px 20px;
+
+    background-color: #FFFBF2;
+
+    border-radius: 10px;
+
+    border: 0px solid;
+
+    box-sizing: border-box;
+
+    line-height: 53px;
+
+
+    color: #F8D17D;
+
+}
+
+.box3 {
+
+
+    display: flex;
+
+    flex-direction: row;
+    
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+
+    height: 53px;
+
+    width: 287px;
+
+    margin: 20px 4px 20px;
+
+    background-color: #F2FBFA;
+
+    border-radius: 10px;
+
+    border: 0px solid;
+
+    box-sizing: border-box;
+
+    line-height: 53px;
+
+    color: #46A58E;
+
+
+}
+
+.box4 {
+
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    
+    height: 53px;
+
+    width: 287px;
+
+    margin: 20px 4px 20px;
+
+    background-color: #F3F3FD;
+
+    border-radius: 10px;
+
+    border: 0px solid;
+
+    box-sizing: border-box;
+
+    line-height: 53px;
+
+    color: #4348CB;
+
+
+}
+
+
+.f {
+
+
+    font-weight: bold;
+
+     font-family: "myfont2";
+
+     margin-left: 30px;
+
+
+
+}
+
+button {
+
+
+    /* to make a font size */
+    font-size: 20px;
+
+    background-color: #303B59;
+
+    color: #FFFFFF;
+
+    border: 1px solid #303B59;
+
+    border-radius: 30px;
+
+    box-sizing: border-box;
+
+    max-width: 100%;
+
+    height: 55px;
+
+    width: 288px;
+
+    text-align: center;
+
+    margin-top: 40px;
+
+    line-height: 55px;
+
+
+}
+
+
+.number_of { 
+
+    /* to make a font size */
+    font-size: 14px;
+
+    /* color of word */
+    color: #000000;
+
+    /* to add a transparency to the word */
+    opacity: .3;
+
+    /* to make font weight fit */
+    font-weight: 700;
+
+    /* this my costume font ....... if you want this font you can got the first of page */
+    font-family: "myfont3";
+
+    /* 
+    margin :
+    --top--:auto;
+    --right--:15px;
+    --bottom--:auto;
+    --left--:3px;
+    */
+    margin: auto 15px auto 3px;
+
+}
+
+.number-value {
+
+
+    font-family: "myfont6";
+
+    font-weight: bold;
+
+    color: #000000;
+
+    opacity: .7;
+
+
+
+}
