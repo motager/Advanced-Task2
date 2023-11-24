@@ -189,12 +189,9 @@
 
 }
 
-div .great {
 
-    max-width: 100%;
-}
 
-.great {
+.Great {
     
 
     text-align: center;
@@ -207,20 +204,27 @@ div .great {
 
     color: #FEFFFF;
 
-    transform: scale(.9);
-
-    transition:3s;
-    max-width: 100%;
+ 
+    
+    transition: 2s;
+    
 
 
 }
 
-.great:hover {
+.Great:hover {
+   
 
-    transform: scale(1.2);
+    transform:scale(1.2);
+transform-style: flat;
+    transition:2s;
 
-    transition: 5s;
+   
+
+
 }
+
+
 
 .p {
 
