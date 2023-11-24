@@ -10,13 +10,13 @@
 @font-face {
 
     font-family: "myfont5";
-    src: url("../font/font/static/Rubik-Medium.ttf");
+    src: url(../font/font/static/Rubik-Medium.ttf);
 }
 
 @font-face {
 
     font-family: "myfont6";
-    src: url(../font/font/static/Rubik-SemiBold.ttf);
+    src: url(       ../font/font/static/Rubik-SemiBold.ttf);
 }
 
 
@@ -31,7 +31,7 @@
 @font-face {
 
     font-family: "myfont";
-    src: url(../font/font/static/Rubik-Regular.ttf);
+    src: url(   ../font/font/static/Rubik-Regular.ttf   );
 
 
 }
@@ -141,6 +141,11 @@
 
 }
 
+.div div {
+    
+    max-width: 100%;
+}
+
 
 .number {
 
@@ -155,6 +160,19 @@
     color: #FEFFFF;
 
     margin: 65px 0px -15px 0px;
+
+    transform: scale(.9);
+
+    transition:3s;
+    max-width: 100%;
+
+}
+
+.number:hover {
+
+    transform: scale(1.2);
+
+    transition:5s;
 
 }
 
@@ -418,8 +436,22 @@ div button {
 
      margin-left: 30px;
 
+     transition: 2s;
 
 
+
+}
+
+.f:hover {
+   
+
+        transform: scale(1.2);
+    
+        transition:2s;
+
+       
+    
+  
 }
 
 button {
