@@ -1,63 +1,15 @@
-/*                      👋 Hello 👋                          */
-/*         This my  stylesheet.,,,,, Welcome😁😁          */         
-
-@font-face{
-    font-family: "myfont1";
-    src: url(../font/font1/Roboto-Regular.ttf);
-
-}
-
-@font-face {
-
-    font-family: "myfont5";
-    src: url(../font/font/static/Rubik-Medium.ttf);
-}
-
-@font-face {
-
-    font-family: "myfont6";
-    src: url(       ../font/font/static/Rubik-SemiBold.ttf);
-}
+                                    /*                      👋 Hello 👋                          */
+                                    /*         This my  stylesheet.,,,,, Welcome😁😁          */         
 
 
+                                                        /* all */
 * {
 
     padding: 0;
     margin: 0;
 
 }
-
-
-@font-face {
-
-    font-family: "myfont";
-    src: url(   ../font/font/static/Rubik-Regular.ttf   );
-
-
-}
-
-@font-face {
-
-    font-family: "myfont2";
-    src: url(../font/font2/static/Rubik-Regular.ttf);
-
-
-}
-
-@font-face {
-
-    font-family: "myfont3";
-    src: url(../font/font3/Roboto/Roboto-Regular.ttf);
-
-}
-
-@font-face {
-
-    font-family: "myfont4";
-    src: url(../font/font3/Roboto/Roboto-Medium.ttf);
-
-}
-
+                                            /* main div {["container"]} */
 .main_div {
 
     width: 740px;
@@ -75,7 +27,7 @@
     box-shadow: 10px 10px 60px #edf2ff;
 
 }
-
+                                                    /* left div box  */
 .left_div {
 
     text-align: center;
@@ -98,7 +50,7 @@
 
 
 }
-
+                                                /*      your result */
 .Your-Result {
 
     font-size: 20px;
@@ -119,9 +71,8 @@
 
 
 }
-
-
-.div {
+                                        /*  radius box  */
+.radius-box {
 
 
     margin: -21px 85px 25px 85px;
@@ -140,13 +91,13 @@
 
 
 }
-
-.div div {
+                                        /*  radius box  */
+.radius-box div {
     
     max-width: 100%;
 }
 
-
+                            /* number for div right */
 .number {
 
     display: block;
@@ -167,7 +118,7 @@
     max-width: 100%;
 
 }
-
+                        /*  hover number for div right */
 .number:hover {
 
     transform: scale(1.2);
@@ -175,8 +126,7 @@
     transition:5s;
 
 }
-
-
+                                /* of 100 for div left */
 .of {
 
     opacity: .4;
@@ -189,9 +139,8 @@
 
 }
 
-
-
-.Great {
+                                        /* great word for greet */
+.Great-word {
     
 
     text-align: center;
@@ -203,29 +152,35 @@
     font-family: "myfont4";
 
     color: #FEFFFF;
-
- 
     
+    transition: 1s;
+    
+    animation: rotate 4s ease  alternate;
+
+}
+                                    /* keyframes for word "Great" rotation */
+@keyframes rotate {
+
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(360deg);
+        }
+        100%{
+            transform: scale(   0deg);
+        }
+    }
+                                    /* transform to make a good hover  👍👍👍 */
+
+.Great-word:hover {
+    /* rotate = 3deg ,,, scale =1.2 */
+    transform : scale(1.2) rotate(3deg);
+    /* to make a good animation */
     transition: 2s;
-    
-
 
 }
-
-.Great:hover {
-   
-
-    transform:scale(1.2);
-transform-style: flat;
-    transition:2s;
-
-   
-
-
-}
-
-
-
+                                                /* paragraph➡➡p */
 .p {
 
 
@@ -237,8 +192,8 @@ transform-style: flat;
 
 
 }
-
-.p div {
+                                    /*  class "".p"" ....paragraph➡➡p  */
+.p p {
 
 
     font-size: 17px;
@@ -251,7 +206,7 @@ transform-style: flat;
 
 
 }
-
+                                                /* For Right div  */
 
 .right_div {
 
@@ -281,6 +236,8 @@ transform-style: flat;
 
 }
 
+                                                    /* Summary div */
+
 .div_sum {
 
 
@@ -288,6 +245,8 @@ transform-style: flat;
 
 
 }
+
+                                                    /* Summary */
 
 .sum {
 
@@ -305,22 +264,14 @@ transform-style: flat;
 
 }
 
-
-
-div button {
-
-
-    display: flex;
-
-    flex-direction: column;
-
-    flex-wrap: nowrap;
-
-    align-items: center;
-
-
+                                                        /* img */
+img {
+    height: 40px;
+width: auto;
+margin-top: 6px;
 }
 
+                                            /* box1 for div right */
 .box1 {
 
 
@@ -352,7 +303,7 @@ div button {
 
 
 }
-
+                                            /* box2 for div right */
 .box2 {
     display: flex;
 
@@ -382,7 +333,7 @@ div button {
     color: #F8D17D;
 
 }
-
+                                            /* box3 for div right */
 .box3 {
 
 
@@ -414,7 +365,7 @@ div button {
 
 
 }
-
+                                            /* box4 for div right */
 .box4 {
 
 
@@ -448,6 +399,14 @@ div button {
 }
 
 
+
+  /*     words :....:
+            --Reaction
+            --Memory
+            --Verbal
+            --Visual
+    */
+
 .f {
 
 
@@ -455,27 +414,46 @@ div button {
 
      font-family: "myfont2";
 
-     margin-left: 30px;
+     margin-right: 80px;
 
      transition: 3s;
+
+     
 
 
 
 }
-
+    /*     hover of words 
+            --Reaction
+            --Memory
+            --Verbal
+            --Visual
+    */
 .f:hover {
    
 
         transform: scale(1.2);
     
         transition:2s;
-
-       
-    
-  
 }
 
+/* For button div  */
 
+div button {
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+
+    align-items: center;
+
+
+}
+
+    /* Continue Button */
 
 button {
 
@@ -487,7 +465,9 @@ button {
 
     color: #FFFFFF;
 
-    border: 1px solid #303B59;
+    border: 0px solid;
+
+    box-shadow: 10px 10px 50px #e4e4e4 ;
 
     border-radius: 30px;
 
@@ -505,10 +485,40 @@ button {
 
     line-height: 55px;
 
+    animation: master 5s ease-in-out infinite alternate;
+
+    transition: 1s;
+
+
+}
+    /* animation for this button */
+@keyframes master {
+
+   0%{
+    transform: scale(1.1);
+   }
+
+   50%{
+    transform: scale(1);
+   }
+
+   100%{
+    transform: scale(1.1);
+   }
 
 }
 
+        /* button hover */
+button:hover {
 
+    background-color:   #ff5d5d  ;
+    background-origin: border-box;
+    box-shadow: 10px 5px 30px #ff5d5d;
+    transition: 1s;
+
+}
+    
+        /* number of 100 */
 .number_of { 
 
     /* to make a font size */
@@ -536,7 +546,7 @@ button {
     margin: auto 15px auto 3px;
 
 }
-
+        /* number from 100 */
 .number-value {
 
 
