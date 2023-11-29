@@ -1,616 +1,636 @@
                     /*                      👋 Hello 👋                          */
-                    /*         This my  stylesheet.,,,,, Welcome😁😁          */         
+                    /*         This my  stylesheet.,,,,, Welcome😁😁          */
 
 
 
-                            /* fonts area */
+                    /* fonts area */
 
 
-@font-face{
-    font-family: "myfont1";
-    src: url(../font/font1/Roboto-Regular.ttf);
+                    @font-face {
+                        font-family: "myfont1";
+                        src: url(./font/font1/Roboto-Regular.ttf);
 
-}
+                    }
 
-@font-face {
+                    @font-face {
 
-    font-family: "myfont5";
-    src: url(../font/font/static/Rubik-Medium.ttf);
-}
+                        font-family: "myfont5";
+                        src: url(./font/font/static/Rubik-Medium.ttf);
+                    }
 
-@font-face {
+                    @font-face {
 
-    font-family: "myfont6";
-    src: url( ../font/font/static/Rubik-SemiBold.ttf);
-}
+                        font-family: "myfont6";
+                        src: url(./font/font/static/Rubik-SemiBold.ttf);
+                    }
 
 
-@font-face {
+                    @font-face {
 
-    font-family: "myfont";
-    src: url( ../font/font/static/Rubik-Regular.ttf);
+                        font-family: "myfont";
+                        src: url(./font/font/static/Rubik-Regular.ttf);
 
 
-}
+                    }
 
-@font-face {
+                    @font-face {
 
-    font-family: "myfont2";
-    src: url(../font/font2/static/Rubik-Regular.ttf);
+                        font-family: "myfont2";
+                        src: url(./font/font2/static/Rubik-Regular.ttf);
 
 
-}
+                    }
 
-@font-face {
+                    @font-face {
 
-    font-family: "myfont3";
-    src: url(../font/font3/Roboto/Roboto-Regular.ttf);
+                        font-family: "myfont3";
+                        src: url(./font/font3/Roboto/Roboto-Regular.ttf);
 
-}
+                    }
 
-@font-face {
+                    @font-face {
 
-    font-family: "myfont4";
-    src: url(../font/font3/Roboto/Roboto-Medium.ttf);
+                        font-family: "myfont4";
+                        src: url(./font/font3/Roboto/Roboto-Medium.ttf);
 
-}
+                    }
 
-                                                        /* all */
-* {
+                    /* all */
+                    * {
 
-    padding: 0;
-    margin: 0;
+                        padding: 0;
+                        margin: 0;
 
-}
-                                            /* main div {["container"]} */
-.main_div {
+                    }
 
-    width: 740px;
+                    /* main div {["container"]} */
+                    .main_div {
 
-    height: 513px;
+                        width: 740px;
 
-    margin: 150px auto 60px auto;
+                        height: 513px;
 
-    background-color: white;
+                        margin: 150px auto 60px auto;
 
-    border-radius: 30px;
+                        background-color: white;
 
-    position: relative;
+                        border-radius: 30px;
 
-    box-shadow: 10px 10px 60px #edf2ff;
+                        position: relative;
 
-}
-                                                    /* left div box  */
-.left_div {
+                        box-shadow: 10px 10px 60px #edf2ff;
 
-    text-align: center;
+                    }
 
-    display: inline-block;
+                    /* left div box  */
+                    .left_div {
 
-    width: 369px;
+                        text-align: center;
 
-    height: 512px;
+                        display: inline-block;
 
-    border-radius: 30px;
+                        width: 369px;
 
-    background-color: #5F3FFC;
+                        height: 512px;
 
-    box-sizing: border-box;
+                        border-radius: 30px;
 
-    border: 1px solid #5F3FFC;
+                        background-color: #5F3FFC;
 
-    max-width: 100%;
+                        box-sizing: border-box;
 
+                        border: 1px solid #5F3FFC;
 
-}
-                                                /*      your result */
-.Your-Result {
+                        max-width: 100%;
 
-    font-size: 20px;
 
-    font-weight: 500;
+                    }
 
-    opacity: .7;
+                    /*      your result */
+                    .Your-Result {
 
-    color: #E9E5FF;
+                        font-size: 20px;
 
-    font-family: "myfont4";
+                        font-weight: 500;
 
-    display: block;
+                        opacity: .7;
 
-    margin: 43px 0px 60px 0px;
+                        color: #E9E5FF;
 
+                        font-family: "myfont4";
 
+                        display: block;
 
+                        margin: 43px 0px 60px 0px;
 
-}
-                                        /*  radius box  */
-.radius-box {
 
 
-    margin: -21px 85px 25px 85px;
 
-    background-color: #452CDE;
+                    }
 
-    border: 1px solid #452CDE;
+                    /*  radius box  */
+                    .radius-box {
 
-    height: 200px;
-    
-    border-radius: 50%;
 
+                        margin: -21px 85px 25px 85px;
 
-    box-sizing: border-box;
-    /* line-height: 200px; */
+                        background-color: #452CDE;
 
+                        border: 1px solid #452CDE;
 
-}
-                                        /*  radius box  */
-.radius-box div {
-    
-    max-width: 100%;
-}
+                        height: 200px;
 
-                            /* number for div right */
-.number {
+                        border-radius: 50%;
 
-    display: block;
 
-    font-size: 60px;
+                        box-sizing: border-box;
+                        /* line-height: 200px; */
 
-    font-family: "myfont3";
 
-    font-weight: bold;
+                    }
 
-    color: #FEFFFF;
+                    /*  radius box  */
+                    .radius-box div {
 
-    margin: 65px 0px -15px 0px;
+                        max-width: 100%;
+                    }
 
-    transform: scale(.9);
+                    /* number for div right */
+                    .number {
 
-    transition:3s;
-    max-width: 100%;
+                        display: block;
 
-}
-                        /*  hover number for div right */
-.number:hover {
+                        font-size: 60px;
 
-    transform: scale(1.2);
+                        font-family: "myfont3";
 
-    transition:5s;
+                        font-weight: bold;
 
-}
-                                /* of 100 for div left */
-.of {
+                        color: #FEFFFF;
 
-    opacity: .4;
+                        margin: 65px 0px -15px 0px;
 
-    color: white;
+                        transform: scale(.9);
 
-    font-weight: 200;
+                        transition: 3s;
+                        max-width: 100%;
 
-    font-family: "myfont2";
+                    }
 
-}
+                    /*  hover number for div right */
+                    .number:hover {
 
-                                        /* great word for greet */
-.Great-word {
-    
+                        transform: scale(1.2);
 
-    text-align: center;
+                        transition: 5s;
 
-    font-size: 30px;
+                    }
 
-    font-weight: 500;
+                    /* of 100 for div left */
+                    .of {
 
-    font-family: "myfont4";
+                        opacity: .4;
 
-    color: #FEFFFF;
-    
-    transition: 1s;
-    
-    animation: rotate 4s ease  alternate;
+                        color: white;
 
-}
-                                    /* keyframes for word "Great" rotation */
-@keyframes rotate {
+                        font-weight: 200;
 
-        0%{
-            transform: rotate(0deg);
-        }
-        50%{
-            transform: rotate(360deg);
-        }
-        100%{
-            transform: scale(   0deg);
-        }
-    }
-                                    /* transform to make a good hover  👍👍👍 */
+                        font-family: "myfont2";
 
-.Great-word:hover {
-    /* rotate = 3deg ,,, scale =1.2 */
-    transform : scale(1.2) rotate(3deg);
-    /* to make a good animation */
-    transition: 2s;
+                    }
 
-}
-                                                /* paragraph➡➡p */
-.p {
+                    /* great word for greet */
+                    .Great-word {
 
 
-    width: 245px;
+                        text-align: center;
 
-    margin: 23px auto;
+                        font-size: 30px;
 
-    opacity: .7;
+                        font-weight: 500;
 
+                        font-family: "myfont4";
 
-}
-                                    /*  class "".p"" ....paragraph➡➡p  */
-.p p {
+                        color: #FEFFFF;
 
+                        transition: 1s;
 
-    font-size: 17px;
+                        animation: rotate 4s ease alternate;
 
-    font-family: "myfont5";
+                    }
 
-    opacity: .7;
+                    /* keyframes for word "Great" rotation */
+                    @keyframes rotate {
 
-    color: #FEFFFF;
+                        0% {
+                            transform: rotate(0deg);
+                        }
 
+                        50% {
+                            transform: rotate(360deg);
+                        }
 
-}
-                                                /* For Right div  */
+                        100% {
+                            transform: scale(0deg);
+                        }
+                    }
 
-.right_div {
+                    /* transform to make a good hover  👍👍👍 */
 
+                    .Great-word:hover {
+                        /* rotate = 3deg ,,, scale =1.2 */
+                        transform: scale(1.2) rotate(3deg);
+                        /* to make a good animation */
+                        transition: 2s;
 
-    display: inline-block;
+                    }
 
-    width: 367px;
+                    /* paragraph➡➡p */
+                    .p {
 
-    height: 512px;
 
-    background-color: #FFFFFF;
+                        width: 245px;
 
-    box-sizing: border-box;
+                        margin: 23px auto;
 
-    border: 1px solid #ffffffad;
+                        opacity: .7;
 
-    max-width: 100%;
 
-    position: absolute;
+                    }
 
-    border-top-right-radius: 30px;
+                    /*  class "".p"" ....paragraph➡➡p  */
+                    .p p {
 
-    border-bottom-right-radius: 30px;
 
-    padding: 36px;
+                        font-size: 17px;
 
+                        font-family: "myfont5";
 
-}
+                        opacity: .7;
 
-                                                    /* Summary div */
+                        color: #FEFFFF;
 
-.div_sum {
 
+                    }
 
-    margin-bottom: 36px;
+                    /* For Right div  */
 
+                    .right_div {
 
-}
 
-                                                    /* Summary */
+                        display: inline-block;
 
-.sum {
+                        width: 367px;
 
+                        height: 512px;
 
-    font-size: 20px;
+                        background-color: #FFFFFF;
 
-    font-weight: bold;
+                        box-sizing: border-box;
 
-    font-family: "myfont3";
+                        border: 1px solid #ffffffad;
 
-    opacity: .9;
+                        max-width: 100%;
 
-    margin-bottom: 8px;
+                        position: absolute;
 
+                        border-top-right-radius: 30px;
 
-}
+                        border-bottom-right-radius: 30px;
 
-                                                        /* img */
-img {
-    height: 40px;
-width: auto;
-margin-top: 6px;
-}
+                        padding: 36px;
 
-                                            /* box1 for div right */
-.box1 {
 
+                    }
 
-    display: flex;
+                    /* Summary div */
 
-    flex-direction: row;
+                    .div_sum {
 
-    flex-wrap: nowrap;
 
-    justify-content: space-between;
+                        margin-bottom: 36px;
 
-    height: 53px;
 
-    width: 287px;
+                    }
 
-    margin: 20px 4px 20px;
+                    /* Summary */
 
-    background-color: #FFF6F5;
+                    .sum {
 
-    border-radius: 10px;
 
-    border: 0px solid;
+                        font-size: 20px;
 
-    box-sizing: border-box;
+                        font-weight: bold;
 
-    line-height: 53px;
+                        font-family: "myfont3";
 
-    color: #FF8B96;
+                        opacity: .9;
 
+                        margin-bottom: 8px;
 
-}
-                                            /* box2 for div right */
-.box2 {
-    display: flex;
 
-    flex-direction: row;
+                    }
 
-    flex-wrap: nowrap;
+                    /* img */
+                    img {
+                        height: 40px;
+                        width: auto;
+                        margin-top: 6px;
+                    }
 
-    justify-content: space-between;
+                    /* box1 for div right */
+                    .box1 {
 
-    height: 53px;
 
-    width: 287px;
+                        display: flex;
 
-    margin: 20px 4px 20px;
+                        flex-direction: row;
 
-    background-color: #FFFBF2;
+                        flex-wrap: nowrap;
 
-    border-radius: 10px;
+                        justify-content: space-between;
 
-    border: 0px solid;
+                        height: 53px;
 
-    box-sizing: border-box;
+                        width: 287px;
 
-    line-height: 53px;
+                        margin: 20px 4px 20px;
 
+                        background-color: #FFF6F5;
 
-    color: #F8D17D;
+                        border-radius: 10px;
 
-}
-                                            /* box3 for div right */
-.box3 {
+                        border: 0px solid;
 
+                        box-sizing: border-box;
 
-    display: flex;
+                        line-height: 53px;
 
-    flex-direction: row;
-    
-    flex-wrap: nowrap;
+                        color: #FF8B96;
 
-    justify-content: space-between;
 
-    height: 53px;
+                    }
 
-    width: 287px;
+                    /* box2 for div right */
+                    .box2 {
+                        display: flex;
 
-    margin: 20px 4px 20px;
+                        flex-direction: row;
 
-    background-color: #F2FBFA;
+                        flex-wrap: nowrap;
 
-    border-radius: 10px;
+                        justify-content: space-between;
 
-    border: 0px solid;
+                        height: 53px;
 
-    box-sizing: border-box;
+                        width: 287px;
 
-    line-height: 53px;
+                        margin: 20px 4px 20px;
 
-    color: #46A58E;
+                        background-color: #FFFBF2;
 
+                        border-radius: 10px;
 
-}
-                                            /* box4 for div right */
-.box4 {
+                        border: 0px solid;
 
+                        box-sizing: border-box;
 
-    display: flex;
+                        line-height: 53px;
 
-    flex-direction: row;
 
-    flex-wrap: nowrap;
+                        color: #F8D17D;
 
-    justify-content: space-between;
-    
-    height: 53px;
+                    }
 
-    width: 287px;
+                    /* box3 for div right */
+                    .box3 {
 
-    margin: 20px 4px 20px;
 
-    background-color: #F3F3FD;
+                        display: flex;
 
-    border-radius: 10px;
+                        flex-direction: row;
 
-    border: 0px solid;
+                        flex-wrap: nowrap;
 
-    box-sizing: border-box;
+                        justify-content: space-between;
 
-    line-height: 53px;
+                        height: 53px;
 
-    color: #4348CB;
+                        width: 287px;
 
+                        margin: 20px 4px 20px;
 
-}
+                        background-color: #F2FBFA;
 
+                        border-radius: 10px;
 
+                        border: 0px solid;
 
-  /*     words :....:
+                        box-sizing: border-box;
+
+                        line-height: 53px;
+
+                        color: #46A58E;
+
+
+                    }
+
+                    /* box4 for div right */
+                    .box4 {
+
+
+                        display: flex;
+
+                        flex-direction: row;
+
+                        flex-wrap: nowrap;
+
+                        justify-content: space-between;
+
+                        height: 53px;
+
+                        width: 287px;
+
+                        margin: 20px 4px 20px;
+
+                        background-color: #F3F3FD;
+
+                        border-radius: 10px;
+
+                        border: 0px solid;
+
+                        box-sizing: border-box;
+
+                        line-height: 53px;
+
+                        color: #4348CB;
+
+
+                    }
+
+
+
+                    /*     words :....:
             --Reaction
             --Memory
             --Verbal
             --Visual
     */
 
-.f {
+                    .f {
 
 
-    font-weight: bold;
+                        font-weight: bold;
 
-     font-family: "myfont2";
+                        font-family: "myfont2";
 
-     margin-right: 80px;
+                        margin-right: 80px;
 
-     transition: 3s;
-
-     
+                        transition: 3s;
 
 
 
-}
-    /*     hover of words 
+
+
+                    }
+
+                    /*     hover of words 
             --Reaction
             --Memory
             --Verbal
             --Visual
     */
-.f:hover {
-   
-
-        transform: scale(1.2);
-    
-        transition:2s;
-}
-
-/* For button div  */
-
-div button {
+                    .f:hover {
 
 
-    display: flex;
+                        transform: scale(1.2);
 
-    flex-direction: column;
+                        transition: 2s;
+                    }
 
-    flex-wrap: nowrap;
+                    /* For button div  */
 
-    align-items: center;
-
-
-}
-
-    /* Continue Button */
-
-button {
+                    div button {
 
 
-    /* to make a font size */
-    font-size: 20px;
+                        display: flex;
 
-    background-color: #303B59;
+                        flex-direction: column;
 
-    color: #FFFFFF;
+                        flex-wrap: nowrap;
 
-    border: 0px solid;
-
-    box-shadow: 10px 10px 50px #e4e4e4 ;
-
-    border-radius: 30px;
-
-    box-sizing: border-box;
-
-    max-width: 100%;
-
-    height: 55px;
-
-    width: 288px;
-
-    text-align: center;
-
-    margin-top: 40px;
-
-    line-height: 55px;
-
-    animation: master 5s ease-in-out infinite alternate;
-
-    transition: 1s;
+                        align-items: center;
 
 
-}
-    /* animation for this button */
-@keyframes master {
+                    }
 
-   0%{
-    transform: scale(1.1);
-   }
+                    /* Continue Button */
 
-   50%{
-    transform: scale(1);
-   }
+                    button {
 
-   100%{
-    transform: scale(1.1);
-   }
 
-}
+                        /* to make a font size */
+                        font-size: 20px;
 
-        /* button hover */
-button:hover {
+                        background-color: #303B59;
 
-    background-color:   #ff5d5d  ;
-    background-origin: border-box;
-    box-shadow: 10px 5px 30px #ff5d5d;
-    transition: 1s;
+                        color: #FFFFFF;
 
-}
-    
-        /* number of 100 */
-.number_of { 
+                        border: 0px solid;
 
-    /* to make a font size */
-    font-size: 14px;
+                        box-shadow: 10px 10px 50px #e4e4e4;
 
-    /* color of word */
-    color: #000000;
+                        border-radius: 30px;
 
-    /* to add a transparency to the word */
-    opacity: .3;
+                        box-sizing: border-box;
 
-    /* to make font weight fit */
-    font-weight: 700;
+                        max-width: 100%;
 
-    /* this my costume font ....... if you want this font you can got the first of page */
-    font-family: "myfont3";
+                        height: 55px;
 
-    /* 
+                        width: 288px;
+
+                        text-align: center;
+
+                        margin-top: 40px;
+
+                        line-height: 55px;
+
+                        animation: master 5s ease-in-out infinite alternate;
+
+                        transition: 1s;
+
+
+                    }
+
+                    /* animation for this button */
+                    @keyframes master {
+
+                        0% {
+                            transform: scale(1.1);
+                        }
+
+                        50% {
+                            transform: scale(1);
+                        }
+
+                        100% {
+                            transform: scale(1.1);
+                        }
+
+                    }
+
+                    /* button hover */
+                    button:hover {
+
+                        background-color: #ff5d5d;
+                        background-origin: border-box;
+                        box-shadow: 10px 5px 30px #ff5d5d;
+                        transition: 1s;
+
+                    }
+
+                    /* number of 100 */
+                    .number_of {
+
+                        /* to make a font size */
+                        font-size: 14px;
+
+                        /* color of word */
+                        color: #000000;
+
+                        /* to add a transparency to the word */
+                        opacity: .3;
+
+                        /* to make font weight fit */
+                        font-weight: 700;
+
+                        /* this my costume font ....... if you want this font you can got the first of page */
+                        font-family: "myfont3";
+
+                        /* 
     margin :
     --top--:auto;
     --right--:15px;
     --bottom--:auto;
     --left--:3px;
     */
-    margin: auto 15px auto 3px;
+                        margin: auto 15px auto 3px;
 
-}
-        /* number from 100 */
-.number-value {
+                    }
 
-
-    font-family: "myfont6";
-
-    font-weight: bold;
-
-    color: #000000;
-
-    opacity: .7;
+                    /* number from 100 */
+                    .number-value {
 
 
+                        font-family: "myfont6";
 
-}
+                        font-weight: bold;
+
+                        color: #000000;
+
+                        opacity: .7;
+
+
+
+                    }
